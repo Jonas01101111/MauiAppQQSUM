@@ -280,181 +280,181 @@ namespace MauiAppQQSUM
             new Pergunta
             {
                 Id = 3,
-                Enunciado = "Qual cantor é o pai da dupla Sandy e Júnior?",
+                Enunciado = "Como é chamado quem nasce em Milão, na Itália?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "LEONARDO" },
-                    new Alternativa {Correta = true, Descricao = "XORORÓ" },
-                    new Alternativa {Correta = false, Descricao = "ZEZÉ DI CAMARGO" },
-                    new Alternativa {Correta = false, Descricao = "CHITÃOZINHO" }
+                    new Alternativa {Correta = false, Descricao = "MILANENSE" },
+                    new Alternativa {Correta = false, Descricao = "MILANOSO" },
+                    new Alternativa {Correta = false, Descricao = "MILISTA" },
+                    new Alternativa {Correta = true, Descricao = "MILANÊS" }
                 }
             },
             new Pergunta
             {
                 Id = 4,
-                Enunciado = "Vatapá é uma comida típica de qual estado?",
+                Enunciado = "Que profissional usa uma ferramenta chamada formão?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "PARANÁ" },
-                    new Alternativa {Correta = true, Descricao = "SANTA CATARINA" },
-                    new Alternativa {Correta = false, Descricao = "SÃO PAULO" },
-                    new Alternativa {Correta = false, Descricao = "BAHIA" }
+                    new Alternativa {Correta = false, Descricao = "CARPINTEIRO" },
+                    new Alternativa {Correta = true, Descricao = "RELOJOEIRO" },
+                    new Alternativa {Correta = false, Descricao = "CONFEITEIRO" },
+                    new Alternativa {Correta = false, Descricao = "BOMBEIRO" }
                 }
             },
             new Pergunta
             {
                 Id = 5,
-                Enunciado = "Quem era o apresentador que reprovava os calouros tocando numa buzina?",
+                Enunciado = "Em qual estádio Pelé marcou seu milésimo gol?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "RAUL GIL" },
-                    new Alternativa {Correta = true, Descricao = "BOLINHA" },
-                    new Alternativa {Correta = false, Descricao = "FLÁVIO CAVALCANTI" },
-                    new Alternativa {Correta = false, Descricao = "CHACRINHA" }
+                    new Alternativa {Correta = false, Descricao = "MORUMBI" },
+                    new Alternativa {Correta = true, Descricao = "PACAEMBU" },
+                    new Alternativa {Correta = false, Descricao = "MARACANÃ" },
+                    new Alternativa {Correta = false, Descricao = "MINEIRÃO" }
                 }
             },
             new Pergunta
             {
                 Id = 6,
-                Enunciado = "Qual é o profissional que usa o estetoscópio?",
+                Enunciado = "O que é um oboé?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "ENGENHEIRO" },
-                    new Alternativa {Correta = true, Descricao = "MECÂNICO" },
-                    new Alternativa {Correta = false, Descricao = "MÉDICO" },
-                    new Alternativa {Correta = false, Descricao = "AVIADOR" }
+                    new Alternativa {Correta = false, Descricao = "VULCÃO" },
+                    new Alternativa {Correta = true, Descricao = "COMIDA" },
+                    new Alternativa {Correta = false, Descricao = "INSTRUMENTO MUSICAL" },
+                    new Alternativa {Correta = false, Descricao = "TRIBO INDÍGENA" }
                 }
             },
             new Pergunta
             {
                 Id = 7,
-                Enunciado = "Qual ser mitológico possui o corpo metade mulher e metade peixe?",
+                Enunciado = "Como eram chamados os pilotos suicidas da Segunda Guerra?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "SEREIA" },
-                    new Alternativa {Correta = true, Descricao = "MEDUSA" },
-                    new Alternativa {Correta = false, Descricao = "CLEÓPATRA" },
-                    new Alternativa {Correta = false, Descricao = "SERENA" }
+                    new Alternativa {Correta = false, Descricao = "KAMIKAZE " },
+                    new Alternativa {Correta = true, Descricao = "SASHIMIS" },
+                    new Alternativa {Correta = false, Descricao = "HARAQUIRIS" },
+                    new Alternativa {Correta = false, Descricao = "SUMÔS" }
                 }
             },
             new Pergunta
             {
                 Id = 8,
-                Enunciado = "Em que cidade é realizada a corrida de São Silvestre?",
+                Enunciado = "O que é gôndola?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "BELO HORIZONTE" },
-                    new Alternativa {Correta = true, Descricao = "RIO DE JANEIRO" },
-                    new Alternativa {Correta = false, Descricao = "SÃO PAULO" },
-                    new Alternativa {Correta = false, Descricao = "SALVADOR" }
+                    new Alternativa {Correta = false, Descricao = "EMBARCAÇÃO" },
+                    new Alternativa {Correta = true, Descricao = "BRINQUEDO" },
+                    new Alternativa {Correta = false, Descricao = "MÚSICA" },
+                    new Alternativa {Correta = false, Descricao = "SÍMBOLO" }
                 }
             },
             new Pergunta
             {
                 Id = 9,
-                Enunciado = "Qual é o réptil que muda de cor conforme o lugar em que está?",
+                Enunciado = "Quantos quilates tem o ouro puro?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "SAPO" },
-                    new Alternativa {Correta = true, Descricao = "CAMALEÃO" },
-                    new Alternativa {Correta = false, Descricao = "LAGARTO" },
-                    new Alternativa {Correta = false, Descricao = "JACARÉ" }
+                    new Alternativa {Correta = false, Descricao = "18" },
+                    new Alternativa {Correta = true, Descricao = "20" },
+                    new Alternativa {Correta = false, Descricao = "24" },
+                    new Alternativa {Correta = false, Descricao = "30" }
                 }
             },
             new Pergunta
             {
                 Id = 10,
-                Enunciado = "Turmalina é uma espécie de quê?",
+                Enunciado = "Segundo a crença popular, a mula-sem-cabeça é mulher de quem?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "FLOR" },
-                    new Alternativa {Correta = true, Descricao = "FRUTO" },
-                    new Alternativa {Correta = false, Descricao = "PEDRA" },
-                    new Alternativa {Correta = false, Descricao = "VERDURA" }
+                    new Alternativa {Correta = false, Descricao = "DO COROINHA" },
+                    new Alternativa {Correta = true, Descricao = "DO PADRE" },
+                    new Alternativa {Correta = false, Descricao = "DO SACRISTÃO" },
+                    new Alternativa {Correta = false, Descricao = "DO BISPO" }
                 }
             },
             new Pergunta
             {
                 Id = 11,
-                Enunciado = "Quem é o inimigo do Piu-Piu nos desenhos animados?",
+                Enunciado = "No filme, quem era parceiro de crimes da Bonnie?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "FÉLIX" },
-                    new Alternativa {Correta = true, Descricao = "TOM" },
-                    new Alternativa {Correta = false, Descricao = "FRAJOLA" },
-                    new Alternativa {Correta = false, Descricao = "MINGAU" }
+                    new Alternativa {Correta = false, Descricao = "BILL" },
+                    new Alternativa {Correta = true, Descricao = "CLYDE" },
+                    new Alternativa {Correta = false, Descricao = "JAMES" },
+                    new Alternativa {Correta = false, Descricao = "BUTCH" }
                 }
             },
             new Pergunta
             {
                 Id = 12,
-                Enunciado = "Em qual país surgiu a máfia?",
+                Enunciado = "Qual é a moeda oficial da Alemanha?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "ESTADOS UNIDOS" },
-                    new Alternativa {Correta = true, Descricao = "INGLATERRA" },
-                    new Alternativa {Correta = false, Descricao = "ITÁLIA" },
-                    new Alternativa {Correta = false, Descricao = "ESPANHA" }
+                    new Alternativa {Correta = false, Descricao = "LIRA" },
+                    new Alternativa {Correta = true, Descricao = "MARCO" },
+                    new Alternativa {Correta = false, Descricao = "FRANCO" },
+                    new Alternativa {Correta = false, Descricao = "LIBRA" }
                 }
             },
             new Pergunta
             {
                 Id = 13,
-                Enunciado = "Qual é a cor da pedra rubi?",
+                Enunciado = "Quem é o parceiro de aventuras de Dom Quixote?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "AZUL" },
-                    new Alternativa {Correta = true, Descricao = "VERDE" },
-                    new Alternativa {Correta = false, Descricao = "AMARELA" },
-                    new Alternativa {Correta = false, Descricao = "VERMELHA" }
+                    new Alternativa {Correta = false, Descricao = "SANCHO PANÇA" },
+                    new Alternativa {Correta = true, Descricao = "GUILHERME TELL" },
+                    new Alternativa {Correta = false, Descricao = "SIGMUND FREUD" },
+                    new Alternativa {Correta = false, Descricao = "LANCELOT" }
                 }
             },
             new Pergunta
             {
                 Id = 14,
-                Enunciado = "Quem é a mulher do Tarzan?",
+                Enunciado = "Que metal avermelhado cria uma camada esverdeada em contato com a umidade?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "DIANA" },
-                    new Alternativa {Correta = true, Descricao = "LOUIS LAINE" },
-                    new Alternativa {Correta = false, Descricao = "JANE" },
-                    new Alternativa {Correta = false, Descricao = "CHITA" }
+                    new Alternativa {Correta = false, Descricao = "FERRO" },
+                    new Alternativa {Correta = true, Descricao = "COBRE" },
+                    new Alternativa {Correta = false, Descricao = "MERCÚRIO" },
+                    new Alternativa {Correta = false, Descricao = "AÇO" }
                 }
             },
             new Pergunta
             {
                 Id = 15,
-                Enunciado = "Quando é comemorado o dia da independência do Brasil?",
+                Enunciado = "Que planta era usada para fabricação de papel no antigo Egito?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "21 DE ABRIL" },
-                    new Alternativa {Correta = true, Descricao = "12 DE OUTUBRO" },
-                    new Alternativa {Correta = false, Descricao = "7 DE SETEMBRO" },
-                    new Alternativa {Correta = false, Descricao = "25 DE DEZEMBRO" }
+                    new Alternativa {Correta = false, Descricao = "PAPIRO" },
+                    new Alternativa {Correta = true, Descricao = "EUCALIPTO" },
+                    new Alternativa {Correta = false, Descricao = "OLIVEIRA" },
+                    new Alternativa {Correta = false, Descricao = "MILHO" }
                 }
             },
             new Pergunta
             {
                 Id = 16,
-                Enunciado = "Quando é comemorado o dia da criança?",
+                Enunciado = "Que país europeu tem como\r\natração a tourada?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "12 DE OUTUBRO" },
-                    new Alternativa {Correta = true, Descricao = "1 DE ABRIL" },
-                    new Alternativa {Correta = false, Descricao = "13 DE MAIO" },
-                    new Alternativa {Correta = false, Descricao = "9 DE JULHO" }
+                    new Alternativa {Correta = false, Descricao = "ESPANHA" },
+                    new Alternativa {Correta = true, Descricao = "ITÁLIA" },
+                    new Alternativa {Correta = false, Descricao = "FRANÇA" },
+                    new Alternativa {Correta = false, Descricao = "ALEMANHA" }
                 }
             },
             new Pergunta
             {
                 Id = 17,
-                Enunciado = "Qual era a profissão exercida por Lula, antes de ele ser presidente do PT?",
+                Enunciado = "O que os filatelistas\r\ncolecionam?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "ENGRAXATE" },
-                    new Alternativa {Correta = true, Descricao = "PEDREIRO" },
-                    new Alternativa {Correta = false, Descricao = "FEIRANTE" },
-                    new Alternativa {Correta = false, Descricao = "METALÚRGICO" }
+                    new Alternativa {Correta = false, Descricao = "QUADROS" },
+                    new Alternativa {Correta = true, Descricao = "MOEDAS" },
+                    new Alternativa {Correta = false, Descricao = "SELOS" },
+                    new Alternativa {Correta = false, Descricao = "FIGURINHAS" }
                 }
             },
             new Pergunta
