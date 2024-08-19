@@ -472,28 +472,274 @@ namespace MauiAppQQSUM
             new Pergunta
             {
                 Id = 19,
-                Enunciado = "Quem fundou a fábrica de automóveis Ford?",
+                Enunciado = "Qual é o país que participou de\r\ntodas as copas do mundo de\r\nfutebol, até 1998?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "HARRISON FORD" },
-                    new Alternativa {Correta = true, Descricao = "GERALD FORD" },
-                    new Alternativa {Correta = false, Descricao = "HENRY FORD" },
-                    new Alternativa {Correta = false, Descricao = "ANNA FORD" }
+                    new Alternativa {Correta = false, Descricao = "ITÁLIA" },
+                    new Alternativa {Correta = true, Descricao = "URUGUAI" },
+                    new Alternativa {Correta = false, Descricao = "ARGENTINA" },
+                    new Alternativa {Correta = false, Descricao = "BRASIL\r\n" }
                 }
             },
             new Pergunta
             {
                 Id = 20,
-                Enunciado = "Como é chamada a gravura impressa sobre pranchas de madeira?",
+                Enunciado = "O nome América foi associado a\r\nqual desses nomes?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "MATEROGRAFIA" },
-                    new Alternativa {Correta = true, Descricao = "LITOGRAFIA" },
-                    new Alternativa {Correta = false, Descricao = "XILOGRAFIA" },
-                    new Alternativa {Correta = false, Descricao = "SERIGRAFIA" }
+                    new Alternativa {Correta = false, Descricao = "AMÉRICO DOS REIS" },
+                    new Alternativa {Correta = true, Descricao = "AMÉRICO BRASILIENSE" },
+                    new Alternativa {Correta = true, Descricao = "AMÉRICO VESPÚCIO" },
+                    new Alternativa {Correta = false, Descricao = "JOSÉ AMÉRICO DA SILVA" }
                 }
             }
         };
+
+
+        List<Pergunta> perguntas_dificeis = new()
+        {
+            new Pergunta
+            {
+                Id = 1,
+                Enunciado = "Onde nasceu Van Gogh, o\r\ngrande pintor impressionista?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "POLÔNIA" },
+                    new Alternativa {Correta = true, Descricao = "FRANÇA" },
+                    new Alternativa {Correta = false, Descricao = "ITÁLIA" },
+                    new Alternativa {Correta = false, Descricao = "HOLANDA" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 2,
+                Enunciado = "Qual presidente brasileiro\r\ninstituiu o AI-5?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "COSTA E SILVA" },
+                    new Alternativa {Correta = true, Descricao = "ERNESTO GEISEL" },
+                    new Alternativa {Correta = false, Descricao = "JOÃO FIGUEIREDO" },
+                    new Alternativa {Correta = false, Descricao = "ITAMAR FRANCO" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 3,
+                Enunciado = "O que significa literalmente\r\nPerestroika?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "CONVERSÃO" },
+                    new Alternativa {Correta = false, Descricao = "INVOLUÇÃO" },
+                    new Alternativa {Correta = false, Descricao = "REESTRUTURAÇÃO" },
+                    new Alternativa {Correta = true, Descricao = "REGRESSÃO" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 4,
+                Enunciado = "Qual desses quatro pesos é o\r\nmais leve?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "10 ONÇAS" },
+                    new Alternativa {Correta = true, Descricao = "10 GRAMAS" },
+                    new Alternativa {Correta = false, Descricao = "10 QUILOS" },
+                    new Alternativa {Correta = false, Descricao = "10 LIBRAS" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 5,
+                Enunciado = "Brahma é o deus de que\r\nreligião?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "HINDUÍSMO" },
+                    new Alternativa {Correta = true, Descricao = "XINTOÍSMO" },
+                    new Alternativa {Correta = false, Descricao = "BUDISMO" },
+                    new Alternativa {Correta = false, Descricao = "ISLAMISMO" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 6,
+                Enunciado = "Os nazistas foram julgados\r\nem:",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "BERLIM" },
+                    new Alternativa {Correta = true, Descricao = "NUREMBERGUE" },
+                    new Alternativa {Correta = false, Descricao = "MUNIQUE" },
+                    new Alternativa {Correta = false, Descricao = "PARIS" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 7,
+                Enunciado = "Qual oceano tem o maior\r\nvolume de água?\r\n",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "ATLÂNTICO" },
+                    new Alternativa {Correta = true, Descricao = "PACÍFICO" },
+                    new Alternativa {Correta = false, Descricao = "ÍNDICO" },
+                    new Alternativa {Correta = false, Descricao = "ÁRTICO" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 8,
+                Enunciado = "Qual foi o último presidente\r\nmilitar do Brasil?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "FERNANDO COLLOR" },
+                    new Alternativa {Correta = true, Descricao = "JOÃO FIGUEIREDO" },
+                    new Alternativa {Correta = false, Descricao = "TANCREDO NEVES" },
+                    new Alternativa {Correta = false, Descricao = "JOÃO GOULART" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 9,
+                Enunciado = "O que são meninges?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "CÉLULAS" },
+                    new Alternativa {Correta = true, Descricao = "NERVOS" },
+                    new Alternativa {Correta = false, Descricao = "MEMBRANAS" },
+                    new Alternativa {Correta = false, Descricao = "MÚSCULOS" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 10,
+                Enunciado = "Qual produto gerou guerras e\r\nconflitos no século XX?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "ÁLCOOL" },
+                    new Alternativa {Correta = true, Descricao = "PETRÓLEO" },
+                    new Alternativa {Correta = false, Descricao = "OURO" },
+                    new Alternativa {Correta = false, Descricao = "ALUMÍNIO" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 11,
+                Enunciado = "No filme, quem era parceiro de crimes da Bonnie?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "BILL" },
+                    new Alternativa {Correta = true, Descricao = "CLYDE" },
+                    new Alternativa {Correta = false, Descricao = "JAMES" },
+                    new Alternativa {Correta = false, Descricao = "BUTCH" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 12,
+                Enunciado = "Qual é a moeda oficial da Alemanha?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "LIRA" },
+                    new Alternativa {Correta = true, Descricao = "MARCO" },
+                    new Alternativa {Correta = false, Descricao = "FRANCO" },
+                    new Alternativa {Correta = false, Descricao = "LIBRA" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 13,
+                Enunciado = "Quem é o parceiro de aventuras de Dom Quixote?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "SANCHO PANÇA" },
+                    new Alternativa {Correta = true, Descricao = "GUILHERME TELL" },
+                    new Alternativa {Correta = false, Descricao = "SIGMUND FREUD" },
+                    new Alternativa {Correta = false, Descricao = "LANCELOT" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 14,
+                Enunciado = "Que metal avermelhado cria uma camada esverdeada em contato com a umidade?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "FERRO" },
+                    new Alternativa {Correta = true, Descricao = "COBRE" },
+                    new Alternativa {Correta = false, Descricao = "MERCÚRIO" },
+                    new Alternativa {Correta = false, Descricao = "AÇO" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 15,
+                Enunciado = "Que planta era usada para fabricação de papel no antigo Egito?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "PAPIRO" },
+                    new Alternativa {Correta = true, Descricao = "EUCALIPTO" },
+                    new Alternativa {Correta = false, Descricao = "OLIVEIRA" },
+                    new Alternativa {Correta = false, Descricao = "MILHO" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 16,
+                Enunciado = "Que país europeu tem como\r\natração a tourada?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "ESPANHA" },
+                    new Alternativa {Correta = true, Descricao = "ITÁLIA" },
+                    new Alternativa {Correta = false, Descricao = "FRANÇA" },
+                    new Alternativa {Correta = false, Descricao = "ALEMANHA" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 17,
+                Enunciado = "O que os filatelistas\r\ncolecionam?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "QUADROS" },
+                    new Alternativa {Correta = true, Descricao = "MOEDAS" },
+                    new Alternativa {Correta = false, Descricao = "SELOS" },
+                    new Alternativa {Correta = false, Descricao = "FIGURINHAS" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 18,
+                Enunciado = "Quem é o patrono do exército brasileiro?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "MARECHAL DEODORO" },
+                    new Alternativa {Correta = true, Descricao = "BARÃO DE MAUÁ" },
+                    new Alternativa {Correta = false, Descricao = "DUQUE DE CAXIAS" },
+                    new Alternativa {Correta = false, Descricao = "MARQUÊS DE POMBAL" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 19,
+                Enunciado = "Qual é o país que participou de\r\ntodas as copas do mundo de\r\nfutebol, até 1998?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "ITÁLIA" },
+                    new Alternativa {Correta = true, Descricao = "URUGUAI" },
+                    new Alternativa {Correta = false, Descricao = "ARGENTINA" },
+                    new Alternativa {Correta = false, Descricao = "BRASIL\r\n" }
+                }
+            },
+            new Pergunta
+            {
+                Id = 20,
+                Enunciado = "O nome América foi associado a\r\nqual desses nomes?",
+                Alternativa = new()
+                {
+                    new Alternativa {Correta = false, Descricao = "AMÉRICO DOS REIS" },
+                    new Alternativa {Correta = true, Descricao = "AMÉRICO BRASILIENSE" },
+                    new Alternativa {Correta = true, Descricao = "AMÉRICO VESPÚCIO" },
+                    new Alternativa {Correta = false, Descricao = "JOSÉ AMÉRICO DA SILVA" }
+                }
+            }
+        };
+
         public App()
         {
             InitializeComponent();
