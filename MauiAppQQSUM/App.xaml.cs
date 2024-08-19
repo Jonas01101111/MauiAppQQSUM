@@ -721,9 +721,9 @@ namespace MauiAppQQSUM
                 Alternativa = new()
                 {
                     new Alternativa {Correta = false, Descricao = "PLATÃO" },
-                    new Alternativa {Correta = true, Descricao = "JÚLIO VERNE" },
+                    new Alternativa {Correta = false, Descricao = "JÚLIO VERNE" },
                     new Alternativa {Correta = false, Descricao = "ARISTÓTELES" },
-                    new Alternativa {Correta = false, Descricao = "RENÉ DESCARTES" }
+                    new Alternativa {Correta = true, Descricao = "RENÉ DESCARTES" }
                 }
             },
             new Pergunta
@@ -734,7 +734,7 @@ namespace MauiAppQQSUM
                 {
                     new Alternativa {Correta = false, Descricao = "CASAS" },
                     new Alternativa {Correta = true, Descricao = "VIOLINOS" },
-                    new Alternativa {Correta = true, Descricao = "ARMAS" },
+                    new Alternativa {Correta = false, Descricao = "ARMAS" },
                     new Alternativa {Correta = false, Descricao = "ESTRADAS" }
                 }
             }
