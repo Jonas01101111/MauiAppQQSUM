@@ -4,7 +4,7 @@ namespace MauiAppQQSUM
 {
     public partial class App : Application
     {
-        List<Pergunta> perguntas_faceis = new()
+        static List<Pergunta> perguntas_faceis = new()
         {
             new Pergunta
             {
@@ -251,7 +251,7 @@ namespace MauiAppQQSUM
 
 
 
-        List<Pergunta> perguntas_medias = new()
+        static List<Pergunta> perguntas_medias = new()
         {
             new Pergunta
             {
@@ -496,7 +496,7 @@ namespace MauiAppQQSUM
         };
 
 
-        List<Pergunta> perguntas_dificeis = new()
+        static List<Pergunta> perguntas_dificeis = new()
         {
             new Pergunta
             {
@@ -621,73 +621,73 @@ namespace MauiAppQQSUM
             new Pergunta
             {
                 Id = 11,
-                Enunciado = "No filme, quem era parceiro de crimes da Bonnie?",
+                Enunciado = "O confucionismo é uma\r\nfilosofia de qual nacionalidade?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "BILL" },
-                    new Alternativa {Correta = true, Descricao = "CLYDE" },
-                    new Alternativa {Correta = false, Descricao = "JAMES" },
-                    new Alternativa {Correta = false, Descricao = "BUTCH" }
+                    new Alternativa {Correta = false, Descricao = "INDIANA" },
+                    new Alternativa {Correta = true, Descricao = "JAPONESA" },
+                    new Alternativa {Correta = false, Descricao = "CHINESA" },
+                    new Alternativa {Correta = false, Descricao = "COREANA" }
                 }
             },
             new Pergunta
             {
                 Id = 12,
-                Enunciado = "Qual é a moeda oficial da Alemanha?",
+                Enunciado = "A eletrônica é parte de qual\r\nciência?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "LIRA" },
-                    new Alternativa {Correta = true, Descricao = "MARCO" },
-                    new Alternativa {Correta = false, Descricao = "FRANCO" },
-                    new Alternativa {Correta = false, Descricao = "LIBRA" }
+                    new Alternativa {Correta = false, Descricao = "FÍSICA" },
+                    new Alternativa {Correta = true, Descricao = "BIOLOGIA" },
+                    new Alternativa {Correta = false, Descricao = "QUÍMICA" },
+                    new Alternativa {Correta = false, Descricao = "BOTÂNICA" }
                 }
             },
             new Pergunta
             {
                 Id = 13,
-                Enunciado = "Quem é o parceiro de aventuras de Dom Quixote?",
+                Enunciado = "Que parte do corpo humano é\r\ninfectada pela cólera?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "SANCHO PANÇA" },
-                    new Alternativa {Correta = true, Descricao = "GUILHERME TELL" },
-                    new Alternativa {Correta = false, Descricao = "SIGMUND FREUD" },
-                    new Alternativa {Correta = false, Descricao = "LANCELOT" }
+                    new Alternativa {Correta = false, Descricao = "GARGANTA" },
+                    new Alternativa {Correta = true, Descricao = "INTESTINO" },
+                    new Alternativa {Correta = false, Descricao = "PULMÕES" },
+                    new Alternativa {Correta = false, Descricao = "RINS" }
                 }
             },
             new Pergunta
             {
                 Id = 14,
-                Enunciado = "Que metal avermelhado cria uma camada esverdeada em contato com a umidade?",
+                Enunciado = "Em que país você pode gastar\r\nrublos?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "FERRO" },
-                    new Alternativa {Correta = true, Descricao = "COBRE" },
-                    new Alternativa {Correta = false, Descricao = "MERCÚRIO" },
-                    new Alternativa {Correta = false, Descricao = "AÇO" }
+                    new Alternativa {Correta = false, Descricao = "HOLANDA" },
+                    new Alternativa {Correta = true, Descricao = "RÚSSIA" },
+                    new Alternativa {Correta = false, Descricao = "ESPANHA" },
+                    new Alternativa {Correta = false, Descricao = "ÁFRICA DO SUL" }
                 }
             },
             new Pergunta
             {
                 Id = 15,
-                Enunciado = "Que planta era usada para fabricação de papel no antigo Egito?",
+                Enunciado = "De quem é este verso: “A\r\npraça é do povo, como o céu\r\né do condor”?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "PAPIRO" },
-                    new Alternativa {Correta = true, Descricao = "EUCALIPTO" },
-                    new Alternativa {Correta = false, Descricao = "OLIVEIRA" },
-                    new Alternativa {Correta = false, Descricao = "MILHO" }
+                    new Alternativa {Correta = false, Descricao = "TOBIAS BARRETO\r\n" },
+                    new Alternativa {Correta = true, Descricao = "DORIVAL CAIMI" },
+                    new Alternativa {Correta = false, Descricao = "MACHADO DE ASSIS" },
+                    new Alternativa {Correta = false, Descricao = "CASTRO ALVES" }
                 }
             },
             new Pergunta
             {
                 Id = 16,
-                Enunciado = "Que país europeu tem como\r\natração a tourada?",
+                Enunciado = "Em que ano Ayrton Senna\r\nvenceu o primeiro\r\ncampeonato de Fórmula 1?\r\n",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "ESPANHA" },
-                    new Alternativa {Correta = true, Descricao = "ITÁLIA" },
-                    new Alternativa {Correta = false, Descricao = "FRANÇA" },
-                    new Alternativa {Correta = false, Descricao = "ALEMANHA" }
+                    new Alternativa {Correta = false, Descricao = "1987" },
+                    new Alternativa {Correta = true, Descricao = "1990" },
+                    new Alternativa {Correta = false, Descricao = "1985" },
+                    new Alternativa {Correta = false, Descricao = "1988" }
                 }
             },
             new Pergunta
@@ -705,25 +705,25 @@ namespace MauiAppQQSUM
             new Pergunta
             {
                 Id = 18,
-                Enunciado = "Quem é o patrono do exército brasileiro?",
+                Enunciado = "Qual é a menor República do\r\nmundo?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "MARECHAL DEODORO" },
-                    new Alternativa {Correta = true, Descricao = "BARÃO DE MAUÁ" },
-                    new Alternativa {Correta = false, Descricao = "DUQUE DE CAXIAS" },
-                    new Alternativa {Correta = false, Descricao = "MARQUÊS DE POMBAL" }
+                    new Alternativa {Correta = false, Descricao = "MÔNACO" },
+                    new Alternativa {Correta = true, Descricao = "SAN MARINO" },
+                    new Alternativa {Correta = false, Descricao = "NOVA ZELÂNDIA" },
+                    new Alternativa {Correta = false, Descricao = "CHINA" }
                 }
             },
             new Pergunta
             {
                 Id = 19,
-                Enunciado = "Qual é o país que participou de\r\ntodas as copas do mundo de\r\nfutebol, até 1998?",
+                Enunciado = "De quem é a frase ”Penso,\r\nlogo existo”?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "ITÁLIA" },
-                    new Alternativa {Correta = true, Descricao = "URUGUAI" },
-                    new Alternativa {Correta = false, Descricao = "ARGENTINA" },
-                    new Alternativa {Correta = false, Descricao = "BRASIL\r\n" }
+                    new Alternativa {Correta = false, Descricao = "PLATÃO" },
+                    new Alternativa {Correta = true, Descricao = "JÚLIO VERNE" },
+                    new Alternativa {Correta = false, Descricao = "ARISTÓTELES" },
+                    new Alternativa {Correta = false, Descricao = "RENÉ DESCARTES" }
                 }
             },
             new Pergunta
