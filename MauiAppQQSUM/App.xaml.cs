@@ -729,13 +729,13 @@ namespace MauiAppQQSUM
             new Pergunta
             {
                 Id = 20,
-                Enunciado = "O nome América foi associado a\r\nqual desses nomes?",
+                Enunciado = "O que construía Stradivarius?",
                 Alternativa = new()
                 {
-                    new Alternativa {Correta = false, Descricao = "AMÉRICO DOS REIS" },
-                    new Alternativa {Correta = true, Descricao = "AMÉRICO BRASILIENSE" },
-                    new Alternativa {Correta = true, Descricao = "AMÉRICO VESPÚCIO" },
-                    new Alternativa {Correta = false, Descricao = "JOSÉ AMÉRICO DA SILVA" }
+                    new Alternativa {Correta = false, Descricao = "CASAS" },
+                    new Alternativa {Correta = true, Descricao = "VIOLINOS" },
+                    new Alternativa {Correta = true, Descricao = "ARMAS" },
+                    new Alternativa {Correta = false, Descricao = "ESTRADAS" }
                 }
             }
         };
