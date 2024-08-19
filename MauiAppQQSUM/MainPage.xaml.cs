@@ -9,7 +9,15 @@
             InitializeComponent();
         }
 
-        
+        private void EasyRoll_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Next_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

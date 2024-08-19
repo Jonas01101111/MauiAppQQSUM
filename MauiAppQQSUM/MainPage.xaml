@@ -3,8 +3,34 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppQQSUM.MainPage">
 
-    <ScrollView>
-        
-    </ScrollView>
+    <!--<ContentPage.Resources></ContentPage.Resources>-->
+
+    <StackLayout Spacing="10" Margin="10">
+
+        <Button Text="Sortear Fácil" x:Name="EasyRoll" Clicked="EasyRoll_Clicked"/>
+
+        <Label Text="{Binding Enunciado}"/>
+
+        <StackLayout>
+            <StackLayout>
+                <RadioButton x:Name="alt0"
+                    Content="{Binding Path=Alternativas[0].Descricao}"
+                    Value="{Binding Path=Alternativas[0].Correta}"/>
+                <RadioButton x:Name="alt1"
+                    Content="{Binding Path=Alternativas[1].Descricao}"
+                    Value="{Binding Path=Alternativas[1].Correta}"/>
+                <RadioButton x:Name="alt2"
+                    Content="{Binding Path=Alternativas[2].Descricao}"
+                    Value="{Binding Path=Alternativas[2].Correta}"/>
+                <RadioButton x:Name="alt3"
+                    Content="{Binding Path=Alternativas[3].Descricao}"
+                    Value="{Binding Path=Alternativas[3].Correta}"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Parar" x:Name="Stop"/>
+                <Button Text="Próxima" x:Name="Next" Clicked="Next_Clicked"/>
+            </StackLayout>  
+    </StackLayout>
 
 </ContentPage>
