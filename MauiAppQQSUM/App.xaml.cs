@@ -740,6 +740,30 @@ namespace MauiAppQQSUM
             }
         };
 
+        public static Pergunta getRandomPerguntaFacil()
+        {
+            Random r = new Random();
+
+            int sorteado = r.Next(1, perguntas_faceis.Count);
+
+            return perguntas_faceis[sorteado];
+        }
+        public static Pergunta getRandomPerguntaMedia()
+        {
+            Random r = new Random();
+
+            int sorteado = r.Next(1, perguntas_faceis.Count);
+
+            return perguntas_medias[sorteado];
+        }
+        public static Pergunta getRandomPerguntaDificil()
+        {
+            Random r = new Random();
+
+            int sorteado = r.Next(1, perguntas_faceis.Count);
+
+            return perguntas_dificeis[sorteado];
+        }
         public App()
         {
             InitializeComponent();

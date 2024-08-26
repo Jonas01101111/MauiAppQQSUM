@@ -11,7 +11,7 @@
 
         private void EasyRoll_Clicked(object sender, EventArgs e)
         {
-
+            this.BindingContext = App.getRandomPerguntaFacil();
         }
 
         private void Next_Clicked(object sender, EventArgs e)
