@@ -1,4 +1,5 @@
 ﻿using MauiAppQQSUM.Models;
+using System.Linq;
 
 namespace MauiAppQQSUM
 {

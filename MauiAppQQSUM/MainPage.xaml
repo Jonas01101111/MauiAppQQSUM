@@ -57,7 +57,9 @@
             <StackLayout Orientation="Horizontal">
                 <Button Text="Parar" x:Name="Stop"/>
                 <Button Text="Próxima" x:Name="Next" Clicked="Next_Clicked"/>
+                
             </StackLayout>
+            
         </StackLayout>
     </StackLayout>
 
