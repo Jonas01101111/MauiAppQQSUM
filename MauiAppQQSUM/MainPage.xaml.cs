@@ -10,6 +10,10 @@ namespace MauiAppQQSUM
         public MainPage()
         {
             InitializeComponent();
+            this.BindingContext = App.getRandomPerguntaFacil();
+            lbl_nivel.Text = "Fácil";
+            lbl_premio.Text = premio.ToString("C");
+            lbl_perguntanivel.Text = pergunta_count.ToString();
         }
 
         private void EasyRoll_Clicked(object sender, EventArgs e)
@@ -60,6 +64,7 @@ namespace MauiAppQQSUM
                 await DisplayAlert("ACERTOU!!!!", resp, "OK");
                 this.BindingContext = App.getRandomPerguntaFacil();
                 pergunta_count++;
+                avanca_pergunta();
             } else
             {
                 await DisplayAlert("ERROU", "Perdeu tudo, não consegue né Moisés?", "OK");
@@ -72,17 +77,23 @@ namespace MauiAppQQSUM
             {
                 premio += 1000;
                 this.BindingContext = App.getRandomPerguntaFacil();
+                lbl_nivel.Text = "Fácil";
             }
 
             if (pergunta_count > 5 && pergunta_count <= 10)
             {
                 premio += 10000;
                 this.BindingContext = App.getRandomPerguntaMedia();
-                if (pergunta_count > 10 && pergunta_count < 15)
+                lbl_nivel.Text = "Média";
+            if (pergunta_count > 10 && pergunta_count < 15)
                 {
                     premio += 100000;
                     this.BindingContext = App.getRandomPerguntaDificil();
+                    lbl_nivel.Text = "Difícil";
                 }
+
+                lbl_premio.Text = premio.ToString("C");
+                lbl_perguntanivel.Text = pergunta_count.ToString();
             }
 
         }

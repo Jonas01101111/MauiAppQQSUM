@@ -249,9 +249,6 @@ namespace MauiAppQQSUM
             }
         };
 
-
-
-
         static List<Pergunta> perguntas_medias = new()
         {
             new Pergunta
@@ -740,15 +737,30 @@ namespace MauiAppQQSUM
                 }
             }
         };
+        static List<Pergunta> perguntas_sorteadas = new();
 
-        public static Pergunta getRandomPerguntaFacil()
+        public static Pergunta GetRandomPerguntaFacil()
         {
             Random r = new Random();
 
-            int sorteado = r.Next(1, perguntas_faceis.Count);
+            Pergunta pergunta_sorteada;
 
-            return perguntas_faceis[sorteado];
+        
+            while (true)
+            {
+                int sorteado = r.Next(0, 19);
+                pergunta_sorteada = perguntas_faceis[sorteado];
+
+                if (!perguntas_sorteadas.Contains(pergunta_sorteada))
+                {
+                    perguntas_sorteadas.Add(pergunta_sorteada);
+                    break;
+                }
+            }
+            return pergunta_sorteada;
         }
+
+
         public static Pergunta getRandomPerguntaMedia()
         {
             Random r = new Random();
